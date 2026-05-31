@@ -1,23 +1,25 @@
-Aim
+**Aim**
+To capture a live memory dump from a system and analyze it using Volatility 3 to extract running processes, network connections, and other volatile artifacts.
 
-Capture and analyze RAM using DumpIT and Volatility to extract and recover volatile data.
+**Theory**
+RAM (volatile memory) contains crucial forensic artifacts that disappear when a system is powered off. Memory forensics can reveal:
 
-Theory
+Running and hidden processes
+Active network connections
+Encryption keys and passwords
+Injected malicious code (malfind)
+Loaded DLLs and kernel modules
 
-Memory forensics is a branch of forensics that focuses on analyzing the content of RAM.
-
-DumpIT
-
+**DumpIT**
 A lightweight tool used to capture a complete RAM image from live Windows system.
 
-Volatility
-
+**Volatility**
 Open source memory analysis framework used to analyze RAM images.
 
-Procedure
+**Procedure**
 Download DumpIT & run it.
 Identify the memory profile.
 Memory image analysis.
-Conclusion
 
+**Conclusion**
 Through this experiment, we captured the RAM contents using DumpIT and analyzed it using Volatility.
